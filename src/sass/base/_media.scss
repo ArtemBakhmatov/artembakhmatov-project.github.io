@@ -1,0 +1,122 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 991px) {
+    .promo {
+        min-height: 530px;
+        .header {
+            display: flex;
+            justify-content: space-around;
+            &__logo {
+                width: 200px;
+            }
+        }
+        &__wrapper {
+            margin-top: 60px;
+            margin-right: 34px;
+        }
+    }
+
+    .advantages {
+        padding: 50px 10px 65px 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        padding: 10px 10px 29px 10px;
+        min-height: 440px;
+        .header {
+            justify-content: space-between;
+            &__logo {
+                width: 120px;
+            }
+            &__official {
+                font-size: 10px;
+                span {
+                    font-size: 15px;
+                }
+            }
+            &__phone {
+                font-size: 14px;
+            }
+            .button {
+                width: 135px;
+                height: 25px;
+            }
+        }
+        &__wrapper  {
+            margin-top: 40px;
+            margin-right: 0px;
+        }
+        &__header {
+            font-size: 34px;
+        }
+        &__subheader {
+            margin-top: 8px;
+            font-size: 20px;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+        .button_main {
+            margin-top: 45px;
+            width: 250px;
+            height: 38px;
+            font-size: 15px;
+        }
+        &__link {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo  {
+        min-height: 370px;
+        .header {
+            flex-direction: column;
+            &__official {
+                margin-top: 8px;
+            }
+            &__contacts {
+                margin-top: 10px;
+                align-items: center;
+            }
+        }
+        &__wrapper {
+            margin-top: 30px;
+            align-items: center;
+        }
+        &__header {
+            font-size: 23px;
+        }
+        &__subheader {
+            margin-top: -5px;
+            font-size: 12px;
+        }
+        &__icons {
+            width: 300px;
+            margin-top: 20px;
+        }
+        &__icon {
+            font-size: 10px;
+            img {
+                width: 30%;
+                margin-bottom: 10px;
+            }
+        }
+        .button_main {
+            margin-top: 30px;
+            width: 205px;
+            height: 29px;
+            font-size: 13px;
+        }
+        &__link {
+            margin-top: 7px;
+            font-size: 12px;
+        }
+    }
+}
+
